@@ -1,0 +1,39 @@
+#Header {
+	background-color: red;
+}
+
+#LeftPanel {
+	background-color: green;
+	width: 25%;
+	float: left;
+}
+
+#Header::after {
+	content: '';
+	clear: Both;
+	display: Block;
+}
+
+#Content {
+	background-color: grey;
+	width: 50%;
+	float: left;
+}
+
+#RightPanel {
+	background-color: blue;
+	width: 25%;
+	float: left;
+}
+
+#Footer {
+	background-color: yellow;
+}
+
+#Header .menu li {
+	list-style-type: none;
+	float: Left;
+	border-right: 2px solid black;
+	padding-right: 50px;
+	padding-left: 50px;
+}
